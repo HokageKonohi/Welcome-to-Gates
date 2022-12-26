@@ -1,0 +1,51 @@
+html,
+body {
+	height: 100%;
+	font-family: 'Poppins', sans-serif;
+// font-family: 'Varela', sans-serif;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+.main {
+	flex: 1 0 auto;
+}
+.footer {
+	flex: 0 0 auto;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+a,button{
+	cursor: pointer;
+	color: #fff;
+}
+// body {
+// 	background: linear-gradient(180deg, #ffffff, #cccccc, #9b9b9b, #000000 , #9b9b9b,#cccccc,#ffffff);
+// 	background-size: 400% 400%;
+// 	animation: gradient 10s ease infinite;
+// 	height: 100%;
+// }
+ 
+// @keyframes gradient {
+// 	0% {
+// 		background-position: 50% 0%;
+// 	}
+// 	50% {
+// 		background-position: 50% 100%;
+// 	}
+// 	100% {
+// 		background-position: 50% 0%;
+// 	}
+// }
+
+
+
